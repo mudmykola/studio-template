@@ -1,0 +1,119 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 16.7em 57.8em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.air-icon:before {
+      background-position: 0em 0em;
+      width: 16.7em;
+      height: 5.3em;
+  }
+
+
+
+
+  .icon.amazon-icon:before {
+      background-position: 0em -5.3em;
+      width: 14.2em;
+      height: 4.3em;
+  }
+
+
+
+
+  .icon.box-icon:before {
+      background-position: 0em -9.6em;
+      width: 7.4em;
+      height: 7.4em;
+  }
+
+
+
+
+  .icon.chart-icon:before {
+      background-position: 0em -17em;
+      width: 7.4em;
+      height: 7.4em;
+  }
+
+
+
+
+  .icon.code-icon:before {
+      background-position: 0em -24.4em;
+      width: 7.4em;
+      height: 7.4em;
+  }
+
+
+
+
+  .icon.fb-icon:before {
+      background-position: 0em -31.8em;
+      width: 3.6em;
+      height: 3.6em;
+  }
+
+
+
+
+  .icon.google-icon:before {
+      background-position: 0em -35.4em;
+      width: 15.1em;
+      height: 5em;
+  }
+
+
+
+
+  .icon.linkedin-icon:before {
+      background-position: 0em -40.4em;
+      width: 3.6em;
+      height: 3.6em;
+  }
+
+
+
+
+  .icon.twitter-icon:before {
+      background-position: 0em -44em;
+      width: 3.6em;
+      height: 3.6em;
+  }
+
+
+
+
+  .icon.uber-icon:before {
+      background-position: 0em -47.6em;
+      width: 16.7em;
+      height: 2.8em;
+  }
+
+
+
+
+  .icon.wallet-icon:before {
+      background-position: 0em -50.4em;
+      width: 7.4em;
+      height: 7.4em;
+  }
+
+
+
+
+
